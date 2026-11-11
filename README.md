@@ -11,3 +11,4 @@ I evaluate AI-generated code solutions, find bugs, test edge cases and compare r
 | Two Sum | C++ | Response A | The two-pointer solution (B) sorts the input and returns positions in the sorted array, so it reports wrong indices and mutates the caller's array. |
 | Second Highest Salary | SQL | Response A | The `ORDER BY ... LIMIT 1 OFFSET 1` solution (B) returns no rows instead of a single null row when there is no second highest salary. |
 | Longest Substring Without Repeating Characters | Python | Response A | The sliding-window solution (B) clears the whole window on a repeat, so it loses valid characters and fails on `"dvdf"` (returns 2, not 3). |
+| Move Zeroes | JavaScript | Response A | The two-ended swap solution (B) moves zeros to the back but scrambles the order of the non-zero values, e.g. `[0, 2, 1]` becomes `[1, 2, 0]`. |
