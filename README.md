@@ -1,2 +1,9 @@
-# AI-CODE-REVIEW-
-Hands-on review of AI-generated code: finding bugs, testing edge cases and comparing model responses in Python, JS, C++ and SQL.
+# ai-code-review-lab
+
+I evaluate AI-generated code solutions, find bugs, test edge cases and compare responses.
+
+## Results
+
+| Problem | Language | Winner | Key finding |
+| --- | --- | --- | --- |
+|  |  |  |  |
