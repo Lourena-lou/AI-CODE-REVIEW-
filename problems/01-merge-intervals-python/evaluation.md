@@ -1,4 +1,4 @@
-# Merge Intervals — Evaluation
+# Merge Intervals: Evaluation
 
 ## Prompt
 

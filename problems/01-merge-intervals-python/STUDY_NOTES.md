@@ -1,4 +1,4 @@
-# Study Notes — Merge Intervals
+# Study Notes: Merge Intervals
 
 ## The task in plain words
 
@@ -7,7 +7,7 @@ You must join the overlapping ones into bigger intervals and return the final
 list. Overlapping includes just touching: `[1, 2]` and `[2, 3]` share the point
 `2`, so they must become `[1, 3]`.
 
-## Response A — the sort-and-merge idea
+## Response A: the sort-and-merge idea
 
 Sort the intervals so they start in order. Then keep a list of finished
 intervals. For each new interval, look at the last one you kept:
@@ -19,7 +19,7 @@ intervals. For each new interval, look at the last one you kept:
 Because everything is sorted by start, one pass is enough. This is why it
 passes every test.
 
-## Response B — the sweep-line idea
+## Response B: the sweep-line idea
 
 Imagine a line and mark each interval's start with `+1` and its end with `-1`.
 Sort all the marks. Walk along the line counting how many intervals are open
